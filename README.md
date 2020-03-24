@@ -8,6 +8,6 @@
 
 Результатом будет методика проведения тестирования смарт-контрактов на уявимости.
 
-Cсылка на план: `https://github.com/FyZzyss/Ocenka_uyazvimosti/blob/master/reports/Куцубин.docx`
+Cсылка на план: (`https://github.com/FyZzyss/Ocenka_uyazvimosti/blob/master/reports/Куцубин.docx`)
 
 Ссылка на сайт: `pd.std-567.ist.mospolytech.ru`
