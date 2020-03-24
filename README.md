@@ -10,4 +10,4 @@
 
 Cсылка на план: https://github.com/FyZzyss/Ocenka_uyazvimosti/blob/master/reports/Куцубин.docx
 
-Ссылка на сайт: http://pd.std-567.ist.mospolytech.ru/
+Ссылка на сайт: http://pd-2020-1.std-567.ist.mospolytech.ru/
