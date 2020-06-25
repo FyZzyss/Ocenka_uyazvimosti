@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Landing Page - Start Bootstrap Theme</title>
+  <title>Проектная деятельность</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -24,6 +24,29 @@
     .topic{
       text-align: center;
     }
+table{
+width: 100%;
+border-collapse:collapse;
+border-spacing:0;
+text-align: center;
+}
+table, td, th {
+border: 1px solid #595959;
+}
+th, td:first-child {
+background: #AFCDE7;
+padding: 10px 20px;
+}
+th, td {
+border-style: solid;
+border-width: 0 1px 1px 0;
+}
+td {
+background: #D8E6F3;
+}
+th:first-child, td:first-child {
+text-align: left;
+}
   </style>
 </head>
 
@@ -39,7 +62,7 @@
         <a class="nav-link" href="#team">Команда</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#report">Отчёт(будет)</a>
+        <a class="nav-link" href="#report">Отчёт</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#video">Видеопрезентация(будет)</a>
@@ -104,7 +127,167 @@
    <a id="report"></a>
     <section class="testimonials text-center bg-light">
     <div class="container">
-      <h2 class="mb-5">Место для отчёта</h2>
+      <h2 class="mb-5">Отчёт</h2>
+<h4 class="mb-5">Сравнение платформ(пока скриншотом)</h4>
+<img class="img-fluid mb-3" src="img/stellar_win.png" alt="">
+<h5 class="mb-5">Лучшая платформа - Stellar </h5>
+<h4 class="mb-5">Выбор методики</h4>
+<h5 class="mb-5">По моему мнению, Symbolic Execution является рабочей лошадкой современного анализа программ. Это один из методов, который вырос из исследований и затем стал использоваться во множестве приложений. Например, на сегодня в Microsoft есть система под названием SAGE, которая работает с большим количеством важного программного обеспечения Microsoft, начиная от Power Point и заканчивая самой Windows, чтобы реально находить проблемы безопасности и уязвимости. </h5>
+<h4 class="mb-5">Сравнение инструментов</h4>
+	<table>
+	<tbody>
+		<tr>
+			<td></td>
+			<td colspan="5">       
+                                                                               Инструменты</td>
+		</tr>
+		<tr>
+			<td>Назначение, уровень кода, тип, предварительная обработка, методы анализа</td>
+			<td>SCompile</td>
+			<td>Manticore</td>
+			<td>Mythril</td>
+			<td>Securify</td>
+			<td>MAIAN</td>
+		</tr>
+		<tr>
+			<td>Проблемы с безопасностью</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+		</tr>
+		<tr>
+			<td>Эксплоиты</td>
+			<td></td>
+			<td>✔</td>
+			<td>✔</td>
+			<td></td>
+			<td>✔</td>
+		</tr>
+		<tr>
+			<td>Общий анализ</td>
+			<td>✔</td>
+			<td></td>
+			<td></td>
+			<td>✔</td>
+			<td>✔</td>
+		</tr>
+		<tr>
+			<td>Байткод</td>
+			<td></td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+		</tr>
+		<tr>
+			<td>Solidity code</td>
+			<td>✔</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Статический анализ</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+		</tr>
+		<tr>
+			<td>Динамический анализ</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>✔</td>
+		</tr>
+		<tr>
+			<td>Contextualization</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Disassembly</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+		</tr>
+		<tr>
+			<td>Control ﬂow graph</td>
+			<td>✔</td>
+			<td></td>
+			<td>✔</td>
+			<td></td>
+			<td>✔</td>
+		</tr>
+		<tr>
+			<td>Decompilation</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>✔</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Сode instrumentation</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Symbolic execution</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td></td>
+			<td>✔</td>
+		</tr>
+		<tr>
+			<td>Constraint solving</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td></td>
+			<td>✔</td>
+		</tr>
+		<tr>
+			<td>Abstract interpretation</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>✔</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Horn Logic</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>✔</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Model checking</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+<h5 class="mb-5">Лучший инструмент - Mythril </h5>
     </div>
     </section>
    <a id="video"></a>
